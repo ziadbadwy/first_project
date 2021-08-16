@@ -17,6 +17,28 @@
 .form-inline button {
     color: black;
 }
+.LOGOUTT{
+    background-color: #ff5a00;
+    width: 15% !important;
+    border:1px #ff5a00 solid ;
+    border-radius: 10px;
+    color: white;
+}
+.LOGOUTT:hover{
+    color: white !important;
+    
+
+}
+@media(max-width:750px){
+    .LOGOUTT{
+        width: 27% !important;
+    } 
+}
+@media(max-width:400px){
+    .LOGOUTT{
+        width: 37% !important;
+    } 
+}
 
 /*navbar*/
 

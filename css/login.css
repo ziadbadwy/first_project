@@ -1,0 +1,23 @@
+.msa7a{
+     height: 100px;
+}
+.nav-link{
+    width: 21% !important;
+    border:1px white solid ;
+    border-radius: 20px;
+    color: white;
+}
+.nav-link:hover{
+    color: white !important;
+
+}
+@media(max-width:750px){
+    .nav-link{
+        width: 27% !important;
+    } 
+}
+@media(max-width:400px){
+    .nav-link{
+        width: 37% !important;
+    } 
+}
