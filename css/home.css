@@ -30,6 +30,7 @@
         position: relative;
         right: -350px;
     }
+    
 }
 @media(max-width:950px){
     .LOGOUTT{
@@ -38,11 +39,12 @@
     }
     .navbar ul{
         position: relative;
-        left: -100px;
+        left: -40px;
     }
     .navbar ul li{
         margin: 10px;
     }
+    
 
 }
 @media(max-width:750px){
@@ -52,7 +54,7 @@
     }
     .navbar ul{
         position: relative;
-        left: -50px;
+        left: -30px;
     }
     .navbar ul li{
         margin: 10px;
@@ -67,7 +69,7 @@
     }
     .navbar ul{
         position: relative;
-        left: -50px;
+        left: -30px;
     }
     .navbar ul li{
         margin: 10px;
