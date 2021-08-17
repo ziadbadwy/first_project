@@ -11,16 +11,27 @@
 .msa7a{
     height: 2px;
 }
+
 @media(max-width:1150px){
     .navbar-nav{
         position: relative;
         right: -600px;
     }
+   .navbar .nav-item{
+       float: left;
+   }
+  
 }
 @media(max-width:950px){
     .navbar-nav{
         position: relative;
         right: 0px;
+    }
+    .navbar .nav-item{
+        float: left;
+    }
+    .navbar .nav-link{
+       width: 200px !important;
     }
 }
 @media(max-width:750px){
@@ -28,17 +39,26 @@
         position: relative;
         right: 0px;
     }
+    .navbar .nav-item{
+        float: left;
+    }
 }
 @media(max-width:650px){
     .navbar-nav{
         position: relative;
         right: 0px;
     }
+    .navbar .nav-item{
+        float: left;
+    }
 }
 @media(max-width:500px){
     .navbar-nav{
         position: relative;
         right: 0px;
+    }
+    .navbar .nav-item{
+        float: left;
     }
 }
 @media(max-width:280px){
@@ -48,6 +68,9 @@
     }
     .navbar-brand{
         margin: 0px !important;
+    }
+    .navbar .nav-item{
+        float: left;
     }
 }
 
